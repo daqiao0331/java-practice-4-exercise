@@ -11,4 +11,5 @@
 #### 计算平均值
 ##### 根据求平均数公式`sum/count`来求得，`sum`和`count`在上一模块中得出。将平均数记为`aver`(average)
 #### 追加写入文件
-##### 使用“try-with-resources”语法进行文件写入，创建了一个 `FileWriter` 对象 `fw`，用于向指定的文件写入数据，
+##### 使用“try-with-resources”语法进行文件写入，创建了一个 `FileWriter` 对象 `fw`，用于向指定的文件写入数据，创建一个 `BufferedWriter` 对象 `bw`提升编写性能,用` bw `对象调用` write` 方法将数据写入文件。
+
